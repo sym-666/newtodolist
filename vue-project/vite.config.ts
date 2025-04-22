@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: '/newtodolist/', // 替换为你的 GitHub 仓库名
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
